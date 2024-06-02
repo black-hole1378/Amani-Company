@@ -3,7 +3,7 @@ import { Stack, Divider, Box } from "@mui/material";
 import { Heading } from "@/component/page/Title/TittleStyle";
 import style from "../../../style/contact_us.module.css";
 import { Noto_Sans_SC } from "next/font/google";
-const noto1 = Noto_Sans_SC({ subsets: ["latin"], display: 'swap' , weight: "700" });
+const noto1 = Noto_Sans_SC({ subsets: ["latin"], display: 'swap'  });
 const noto2 = Noto_Sans_SC({ subsets: ["latin"], display: 'swap' , weight: "500" });
 const noto3 = Noto_Sans_SC({ subsets: ["latin"], display: 'swap' ,weight: "400" });
 import LocationOnIcon from "@mui/icons-material/LocationOn";
