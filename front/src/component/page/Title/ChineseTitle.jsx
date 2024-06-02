@@ -1,11 +1,11 @@
 import React from "react";
 import { Box, Container, Divider } from "@mui/material";
 import style from "../../../style/page.module.css";
-import { Noto_Sans_SC } from "next/font/google";
-const noto = Noto_Sans_SC({ subsets: ["latin"],display: 'swap' , weight: "500" });
+import { Noto_Serif } from "next/font/google";
+const noto = Noto_Serif({ subsets: ["latin"],display: 'swap' , weight: "500" });
 import { Content, FLEX, Heading, Subtitle } from "./TittleStyle";
-const noto2 = Noto_Sans_SC({ subsets: ["latin"], display: 'swap' ,weight: "500" });
-const noto3 = Noto_Sans_SC({ subsets: ["latin"], display: 'swap' ,weight: "300" });
+const noto2 = Noto_Serif({ subsets: ["latin"], display: 'swap' ,weight: "500" });
+const noto3 = Noto_Serif({ subsets: ["latin"], display: 'swap' ,weight: "300" });
 
 const ChinseTitle = ({ title }) => {
   return (

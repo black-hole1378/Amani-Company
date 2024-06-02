@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Box, Button, Container, TextField } from "@mui/material";
-import { Noto_Sans_SC } from "next/font/google";
-const noto1 = Noto_Sans_SC({ subsets: ["latin"],display: 'swap' , weight: "700" });
+import { Noto_Serif } from "next/font/google";
+const noto1 = Noto_Serif({ subsets: ["latin"],display: 'swap' , weight: "700" });
 import { Text } from "./FormStyle";
 const ChineseFormBox = ({ setOpen, setCode }) => {
   const [value, setValue] = useState("");

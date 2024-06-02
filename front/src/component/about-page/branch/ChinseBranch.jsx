@@ -5,9 +5,9 @@ import style from "../../../style/about_us.module.css";
 import { useInView } from "react-intersection-observer";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PhoneIcon from "@mui/icons-material/Phone";
-import { Noto_Sans_SC } from "next/font/google";
-const noto1 = Noto_Sans_SC({ subsets: ["latin"], weight: "900" });
-const noto2 = Noto_Sans_SC({ subsets: ["latin"], weight: "500" });
+import { Noto_Serif } from "next/font/google";
+const noto1 = Noto_Serif({ subsets: ["latin"], weight: "900" });
+const noto2 = Noto_Serif({ subsets: ["latin"], weight: "500" });
 import { EmailOutlined, WorkHistory } from "@mui/icons-material";
 import { Text, SmallText } from "./BranchStyle";
 const variant = {

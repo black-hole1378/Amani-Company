@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Divider } from "@mui/material";
 import style from "../../../style/page.module.css";
 import { Lalezar } from "next/font/google";
-const lalezar = Lalezar({ subsets: ["arabic"], weight: "400" });
-import { Noto_Sans } from "next/font/google";
-const noto = Noto_Sans({ subsets: ["devanagari"], weight: "300" });
+const lalezar = Lalezar({ subsets: ["arabic"],display: 'swap' , weight: "400" });
+import { Noto_Serif } from "next/font/google";
+const noto = Noto_Serif({ subsets: ["devanagari"],display: 'swap' , weight: "300" });
 import { FLEX, Heading, Subtitle, Content } from "./TittleStyle";
 const PersianTitle = ({ title }) => {
   return (
