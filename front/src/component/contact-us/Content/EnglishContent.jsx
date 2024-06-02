@@ -3,7 +3,7 @@ import { Stack, Divider, Box } from "@mui/material";
 import { Heading } from "@/component/page/Title/TittleStyle";
 import style from "../../../style/contact_us.module.css";
 import { Prompt } from "next/font/google";
-const prompt = Prompt({ subsets: ["vietnamese"], display: 'swap' , weight: "500" });
+const prompt = Prompt({ subsets: ["vietnamese"], display: "swap" , weight: "500" });
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PhoneIcon from "@mui/icons-material/Phone";
 import LocalPostOfficeIcon from "@mui/icons-material/LocalPostOffice";
